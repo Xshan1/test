@@ -1,0 +1,393 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<title>宠物之家</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }
+</script>
+<meta name="keywords" content="House of pets" />
+<!--Google Fonts-->
+<link href='http://fonts.useso.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Roboto+Condensed:400,700,300' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- //end-smoth-scrolling -->
+<!--pop-up-box-->
+					  <script type="text/javascript" src="js/modernizr.custom.53451.js"></script>  
+					<link href="css/popup-box.css" rel="stylesheet" type="text/css" media="all">
+					<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+<!--pop-up-box-->
+</head>
+<body>
+<!--header start here-->
+<div class="header">
+	<div class="container">
+		<div class="header-main">
+			<div class="header-left">
+				<div class="logo">
+					<a href="Home.html"><h1>宠物之家</h1></a>
+				</div>
+				<div class="top-nav">
+			<ul class="res">
+                <li><a class="active" href="Home.html">首页</a></li>
+                
+                <li><a href="Lingyang.html">宠物领养</a></li>
+      <li></li>
+      
+                <li><a href="Baike.html">宠物百科</a></li>
+                <li><a  href="#">喂养常识</a>
+                    <ul>
+                        <li><a href="dog.html">狗</a> </li>
+                        <li><a href="cat.html">猫</a> </li>
+                    </ul>
+                </li>
+                <li><a href="Photo.html">摄影作品</a></li>
+                <li><a href="Contact.html">关于我们</a></li>
+			</ul>
+		</div>
+			</div>
+			<div class="header-right">
+			   <div class="search">
+			   	  <form>
+					<input type="text" value="Search" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search';}"/>
+					<input type="submit"  value=""/>
+				  </form>
+				</div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--header end here-->
+<!--banner start here-->
+<script src="js/responsiveslides.min.js"></script>
+<script>
+    $(function () {
+      $("#slider").responsiveSlides({
+      	auto: true,
+      	speed: 500,
+        namespace: "callbacks",
+        pager: true
+      });
+    });
+  </script>
+    <div class="slider">
+	    <div class="callbacks_container">
+	      <ul class="rslides" id="slider">
+	        <li>
+	          <div class="banner">
+	          <div class="caption">
+		          	<h3>你的一生，拥有家人、朋友、爱情，<br> </br>
+                        而我只有你。</h3>
+					<span class="head-line"> </span>
+					<div class="video-play-bwn">
+					 	<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim"><span class="roundplay-bwn"> </span></a>
+				   </div>
+				   
+	         </div>
+	         </div>
+	        </li>
+	        <li>
+	          <div class="banner1">
+	          <div class="caption">
+		          	<h3><h3>你的一生，拥有家人、朋友、爱情，<br> </br>
+                        而我只有你。</h3></h3>
+					<span class="head-line"> </span>
+					<div class="video-play-bwn">
+					 	<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim"><span class="roundplay-bwn"> </span></a>
+				   </div>
+				   
+	         </div>
+	         </div>
+	        </li>
+	        <li>
+	         <div class="banner2">
+	           <div class="caption">
+                   <h3>你的一生，拥有家人、朋友、爱情，<br> </br>
+                       而我只有你。</h3>
+					<span class="head-line"> </span>
+					<div class="video-play-bwn">
+					 	<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim"><span class="roundplay-bwn"> </span></a>
+				   </div>
+				  
+	           </div>
+	         </div>
+	        </li>
+	      </ul>
+	  </div>
+    </div>
+
+<!--banner end here-->
+ <div id="small-dialog5" class="mfp-hide">
+					<iframe src="http://www.iqiyi.com/v_19rrnme7lk.html?vfm=m_303_qqll" width="500" height="213" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+				  </div>
+				   <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>
+<!--portfolio start here-->
+<link rel="stylesheet" href="css/swipebox.css">
+	<script src="js/jquery.swipebox.min.js"></script> 
+	    <script type="text/javascript">
+			jQuery(function($) {
+				$(".swipebox").swipebox();
+			});
+		</script>
+		
+<div class="portfolio">
+	<div class="portfolio-main">
+		<div class="portfolio-bottom">
+			<div class="port-nav-left">
+				  	<h6>流浪的它</h6>
+				  	<p>&nbsp;&nbsp;流浪动物，主要是指以城市各大公园，大学校园，居住区等为主要聚集地的无主人的狗和猫，在世界各地，猫和狗都是最主要的流浪动物
+                        ，全球流浪猫的数量还没有准确统计，但全球流浪狗的数量却非常惊人，占总数量的75%，也就是说有四只狗中，三只狗就会无家可归。之所以会出现
+                        越来越多的流浪动物主要有以下几方面的原因：一是有些都市人养宠物有着不健全的心态，纯粹是为了和别人攀比，什么名贵养什么，但等流行的风潮一过
+                        ,或者遇到更名贵的宠物，或者不能忍受宠物的生活习性，则就会将以前的遗弃；二是旧城改造或者居民外迁，宠物无法跟随住户迁走而只能遗弃；三是主人不愿意承担过高的办证费和医疗费而遗弃；四是各种流行性疾病爆发所引发的恐慌，也是遗弃的原因之一.通过以上的分析可以看出，
+                        流浪动物的来源绝大部分来自于主人的遗弃，然后再经过高速的繁殖，以至于造成今天的流浪动物患。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                       <p>&nbsp;&nbsp; 甘地曾经说过：“从对待动物的态度可以判断这个民族是否伟大，道德是否高尚。”既然流浪动物在现实中是客观存在的，那么我们就必须采取相关措施来解决这个问题，但并不提倡通过残杀、虐待等方式来对待这个弱势群体。&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+		     </div>
+					<div id="portlist1">
+					<div class="col-md-3 pa-more">
+						<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim">
+							<div class="work-column">
+							<img src="" alt="" class="img-cap img-responsive"><img src=""><img src="图片/狗1.jpg" width="320" height="240">
+                            <div class="porthover">
+							  <h3>拉布拉多犬</h3>
+								  <span class="hover-line"> </span>
+								   <small class="port-play"> </small>
+								  <div class="porthover-grids">
+									  	<div class="porthover-left">
+									  		<span class="port-lady"> </span>
+									  		<p></p>
+									  	</div>
+									  	<div class="porthover-right">
+									  		<span class="heart"> </span>
+									  	</div>
+									  <div class="clearfix"> </div>
+								  </div>
+								  <div class="clearfix"> </div>
+					  </div>
+					  </div>
+						</a>
+				
+						<div id="small-dialog" class="mfp-hide">
+					<div class="image-top">
+						<div class="video-play-bwn">
+					 	 <a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim"> </a>
+				        </div>
+				    
+			           </div>
+			          </div>
+					</div>				
+					
+					<div class="col-md-3 pa-more">
+						<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim">
+							<div class="work-column">
+							<img src="" alt="" class="img-cap img-responsive"><img src=""><img src="图片/狗2.jpg" width="320" height="240">
+							<div class="porthover">
+							  <h3>泰迪</h3>
+								  <span class="hover-line"> </span>
+								   <small class="port-play"> </small>
+								  <div class="porthover-grids">
+									  	<div class="porthover-left">
+									  		<span class="port-lady"> </span>
+									  		<p></p>
+									  	</div>
+									  	<div class="porthover-right">
+									  		<span class="heart"> </span>
+									  	</div>
+									  <div class="clearfix"> </div>
+								  </div>
+								  <div class="clearfix"> </div>
+							</div>
+						</div>
+						</a>
+					</div>				
+					<div class="col-md-3 pa-more">
+						<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim">
+							<div class="work-column">
+							<img src="" alt="" class="img-cap img-responsive">
+                            <img src=""><img src="图片/狗3.jpg" width="320" height="240">
+							<div class="porthover">
+							  <h3>萨摩耶</h3>
+								  <span class="hover-line"> </span>
+								   <small class="port-play"> </small>
+								  <div class="porthover-grids">
+									  	<div class="porthover-left">
+									  		<span class="port-lady"> </span>
+									  		<p></p>
+									  	</div>
+									  	<div class="porthover-right">
+									  		<span class="heart"> </span>
+									  	</div>
+									  <div class="clearfix"> </div>
+								  </div>
+								  <div class="clearfix"> </div>
+							</div>
+						</div>
+						</a>
+					</div>			
+					<div class="col-md-3 pa-more">
+						<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim">
+							<div class="work-column">
+							<img src="" alt="" class="img-cap img-responsive">
+                            <img src=""><img src="图片/狗4.jpg" width="320" height="240">
+							<div class="porthover">
+							  <h3>猎狐犬</h3>
+								  <span class="hover-line"> </span>
+								   <small class="port-play"> </small>
+								  <div class="porthover-grids">
+									  	<div class="porthover-left">
+									  		<span class="port-lady"> </span>
+									  		<p></p>
+									  	</div>
+									  	<div class="porthover-right">
+									  		<span class="heart"> </span>
+									  	</div>
+									  <div class="clearfix"> </div>
+								  </div>
+								  <div class="clearfix"> </div>
+							</div>
+						</div>
+						</a>
+							
+					</div>
+					
+					<div class="col-md-3 pa-more">
+						<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim">
+							<div class="work-column">
+							<img src="" alt="" class="img-cap img-responsive">
+                            <img src=""><img src="图片/猫1.jpg" width="320" height="240">
+                            <div class="porthover">
+							  <h3>折耳猫</h3>
+								  <span class="hover-line"> </span>
+								   <small class="port-play"> </small>
+								  <div class="porthover-grids">
+									  	<div class="porthover-left">
+									  		<span class="port-lady"> </span>
+									  		<p></p>
+									  	</div>
+									  	<div class="porthover-right">
+									  		<span class="heart"> </span>
+									  	</div>
+									  <div class="clearfix"> </div>
+								  </div>
+								  <div class="clearfix"> </div>
+					  </div>
+					  </div>
+						</a>
+					</div>				
+					
+					<div class="col-md-3 pa-more">
+						<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim">
+							<div class="work-column">
+							<img src="" alt="" class="img-cap img-responsive"><img src=""><img src="图片/猫2.jpg" width="320" height="240">
+							<div class="porthover">
+							  <h3>短毛猫</h3>
+								  <span class="hover-line"> </span>
+								   <small class="port-play"> </small>
+								  <div class="porthover-grids">
+									  	<div class="porthover-left">
+									  		<span class="port-lady"> </span>
+									  		<p></p>
+									  	</div>
+									  	<div class="porthover-right">
+									  		<span class="heart"> </span>
+									  	</div>
+									  <div class="clearfix"> </div>
+								  </div>
+								  <div class="clearfix"> </div>
+							</div>
+						</div>
+						</a>
+					</div>				
+					<div class="col-md-3 pa-more">
+						<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim">
+							<div class="work-column">
+							<img src="" alt="" class="img-cap img-responsive">
+                            <img src=""><img src="图片/猫3.jpg" width="320" height="240">
+							<div class="porthover">
+							  <h3>森林猫</h3>
+								  <span class="hover-line"> </span>
+								   <small class="port-play"> </small>
+								  <div class="porthover-grids">
+									  	<div class="porthover-left">
+									  		<span class="port-lady"> </span>
+									  		<p></p>
+									  	</div>
+									  	<div class="porthover-right">
+									  		<span class="heart"> </span>
+									  	</div>
+									  <div class="clearfix"> </div>
+								  </div>
+								  <div class="clearfix"> </div>
+							</div>
+						</div>
+						</a>
+					</div>			
+					<div class="col-md-3 pa-more">
+						<a href="#small-dialog5" class="thickbox play-icon popup-with-zoom-anim">
+							<div class="work-column"> <img src="" alt="" class="img-cap img-responsive">    
+                           <img src=""> <img src="图片/猫4.jpg" width="320" height="240">
+                            <div class="porthover">
+							  <h3>田园猫</h3>
+			  <span class="hover-line"> </span>
+								   <small class="port-play"> </small>
+							<div class="porthover-grids">
+									  	<div class="porthover-left">
+									  		<span class="port-lady"> </span>
+									  		<p></p>
+									  	</div>
+									  	<div class="porthover-right">
+									  		<span class="heart"> </span>	  
+				
+					</div>			
+					<div class="clearfix"> </div>
+				</div>
+         </div>
+                              </div>
+                            </a>
+	</div>
+	</div>
+            </div>
+        </div>
+    </div>
+<!--portfolio end here--> 
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+			
+		</div>
+	</div>
+</div>
+<!--footer end here-->
+</body>
+</html>
